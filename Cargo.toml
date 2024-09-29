@@ -1,0 +1,12 @@
+[package]
+name = "sys_prog_2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rsa = "0.9.6"
+rand = "0.8.5"
+
+[profile.release]
+debug = true
+opt-level = 0
